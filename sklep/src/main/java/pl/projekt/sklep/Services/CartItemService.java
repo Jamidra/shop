@@ -27,11 +27,6 @@ public class CartItemService  implements CartItemServiceInterface{
 
     @Override
     public void addItemToCart(Long cartId, Long itemId, int quantity) {
-        //1. Get the cart
-        //2. Get the item
-        //3. Check if the item already in the cart
-        //4. If Yes, then increase the quantity with the requested quantity
-        //5. If No, then initiate a new CartItem entry.
         Cart cart = cartService.getCart(cartId);
         Item item = itemService.getItemById(itemId);
         CartItem cartItem = cart.getItems()
