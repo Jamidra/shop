@@ -14,7 +14,7 @@ import static org.springframework.http.HttpStatus.*;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @RestController
-@RequestMapping("${api.prefix}/categories")
+@RequestMapping("api/categories")
 public class CategoryController {
     private final CategoryServiceInterface categoryService;
 

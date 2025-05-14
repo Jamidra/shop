@@ -16,7 +16,7 @@ import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @RestController
-@RequestMapping("/api/items")
+@RequestMapping("/api/products")
 public class ItemController {
     private final ItemServiceInterface itemService;
 

@@ -10,7 +10,7 @@ import pl.projekt.sklep.responses.ApiResponse;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @RestController
-@RequestMapping("${api.prefix}/cartItems")
+@RequestMapping("api/cartItems")
 public class CartItemController {
     private final CartItemServiceInterface cartItemService;
     private final CartServiceInterface cartService;

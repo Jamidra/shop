@@ -18,6 +18,10 @@ public class Item {
     @JoinColumn(name = "category_id")
     private Category category;
 
+    public Item() {
+
+    }
+
     public Long getId() {
         return id;
     }

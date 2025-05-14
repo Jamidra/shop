@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 @RestController
-@RequestMapping("${api.prefix}/carts")
+@RequestMapping("api/cart")
 public class CartController {
     private final CartServiceInterface cartService;
 
