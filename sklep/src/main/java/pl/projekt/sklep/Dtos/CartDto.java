@@ -10,9 +10,6 @@ public class CartDto {
     private BigDecimal totalAmount;
 
     public CartDto() {
-        this.cartId = 0L;
-        this.items = new HashSet<>();
-        this.totalAmount = BigDecimal.ZERO;
     }
 
     public Long getCartId() {

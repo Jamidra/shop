@@ -8,11 +8,7 @@ public class UserDto {
     private String lastName;
     private CartDto cart;
 
-    public UserDto(Long id, String firstName, String lastName, CartDto cart) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.cart = cart;
+    public UserDto() {
     }
 
     public Long getId() {

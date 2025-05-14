@@ -9,7 +9,6 @@ public class CartItemDto {
     private ItemDto product;
 
     public CartItemDto() {
-        super();
     }
 
     public Long getItemId() {

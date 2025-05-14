@@ -14,10 +14,7 @@ public class ItemDto {
     private String description;
     private Category category;
 
-    public ItemDto(Long id, String name, String brand, BigDecimal price, int inventory, String description, Category category) {
-        this.id = id;
-        this.name = name;
-        this.brand = brand;
+    public ItemDto() {
     }
 
     public Long getId() {
